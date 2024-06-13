@@ -59,13 +59,14 @@ let  $price = 0;
 let mot = price/$price;
 console.log(mot);
 */
+//api chak korer neyom ok
+async function myEvent() {
 
-let price = 45;
-
-let myName =`my name is: hridoy islam' my roll:${price}`;
-let  name = "my,name is:' hridoy islam";
-let  nunu = 'my name is:\' hridoy islam';
-
-console.log( myName);
-console.log( name);
-console.log(nunu);
+  let hridoy = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+   
+  let myName = await hridoy.json();
+     console.log(myName)
+  
+  };
+       
+  myEvent()
