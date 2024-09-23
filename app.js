@@ -58,7 +58,7 @@ let price = 200;
 let  $price = 0;
 let mot = price/$price;
 console.log(mot);
-*/
+
 //api chak korer neyom ok
 async function myEvent() {
 
@@ -69,4 +69,12 @@ async function myEvent() {
   
   };
        
-  myEvent()
+  myEvent()*/
+
+
+
+  let array=['dhaka','dinajpur','rongpur','sethabgonj',]
+
+  let hridoy=[...array,'rabby','allah','momumad']
+  hridoy.push(array)
+console.log(hridoy);
