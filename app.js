@@ -71,10 +71,8 @@ async function myEvent() {
        
   myEvent()*/
 
+let add=['hridoy','islam','ma']
 
-
-  let array=['dhaka','dinajpur','rongpur','sethabgonj',]
-
-  let hridoy=[...array,'rabby','allah','momumad']
-  hridoy.push(array)
-console.log(hridoy);
+for(let myName of add){
+console.log(myName)
+}
